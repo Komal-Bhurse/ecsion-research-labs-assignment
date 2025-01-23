@@ -1,0 +1,27 @@
+
+.logo{
+    width: 50px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+  }
+  .profile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
