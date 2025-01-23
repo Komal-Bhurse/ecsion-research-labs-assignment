@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http:localhost:5000/",
+        target: "http://ecsion-research-labs-assignment.vercel.app/",
         secure: true,
         changeOrigin: true,
       },

@@ -119,7 +119,7 @@ const login = async (req, res) => {
 
         res.cookie("u_m_uid", token, {
             secure: true,
-            domain: "localhost",
+            domain: "ecsion-research-labs-assignment.vercel.app",
         });
 
 
